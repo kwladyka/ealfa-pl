@@ -1,0 +1,206 @@
+body {
+    background: white;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
+
+a {
+    text-decoration: none;
+    color: #000080;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    /*background-color: #000080;*/
+    /*background-color: #7A7ACC;*/
+    background-color: #7486ed;
+}
+
+/* lang */
+
+#lang {
+    margin-top: 4px;
+}
+
+#lang img{
+    float: right;
+
+    margin-left: 6px;
+
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+/* logo */
+
+#logo {
+    margin-bottom: 30px;
+}
+
+#logo img {
+    width: 180px;
+}
+
+/* menu */
+
+#menu {
+    margin-bottom: 30px;
+}
+
+#menu ul li{
+    display: inline-block;
+    margin-right: 0px;
+}
+
+#menu ul li a {
+    padding: 6px 10px;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: small;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+#menu ul .menu-active a{
+    text-decoration: underline;
+}
+
+/*#menu ul li .menu-active {
+    text-decoration: underline;
+}*/
+
+#menu ul li a:hover{
+    /*background-color: #7A7ACC;*/
+    /*background-color: #7486ed;*/
+    /*background-color: #8bb81d;*/
+    /*background-color:rgba(139, 184, 29, .8);*/
+    background-color:rgba(46, 51, 45, .8);
+    text-decoration: underline;
+}
+
+/* content */
+
+.content img {
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+#about img, #contact img {
+    border-radius: 5px;
+}
+
+/* content technology */
+
+#tech-table {
+    display: table;
+}
+
+.tech-row {
+    display: table-row;
+
+    height: 150px;
+}
+
+.tech-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tech-cell:first-of-type a:hover {
+    background-color: white;
+}
+
+.tech-cell img {
+    margin: 0px;
+
+    width: 100px;
+
+    border-radius: 5px;
+}
+
+.tech-cell p {
+    margin: 0px;
+    margin-left: 20px;
+}
+
+/* job_offer */
+
+#job-offer h1 { 
+    font-size: 200%;
+}
+
+#job-container a {
+    line-height: 300%;
+    margin: 40px 10px;
+    padding: 10px 30px;
+
+    /*color: black;*/
+    color: #3d0f0f;
+    font-weight: bold;
+    font-size: 150%;
+
+    /*background-color:rgba(61, 15, 15, .4);*/
+    /*background-color:rgba(236, 217, 115, .4);*/
+    background-color:rgba(205, 188, 162, .4);
+}
+
+.job h1 {
+    color: #3d0f0f;
+    font-size: 300%;
+}
+
+.job ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.job ul li:before {
+    margin-right: 6px;
+
+    content: "";
+    border-left: 3px #3d0f0f solid;
+}
+
+/* portfolio */
+.portfolio img {
+    width: 320px;
+
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:rgba(46, 51, 45, .1);
+}
+
+/* footer */
+
+#footer {
+    margin-top: 20px;
+
+    border-top:1px solid #CCCCCC;
+
+    font-size: x-small;
+}
+
+#copyright {
+    float: left;
+}
+
+#gpage {
+    text-align: right;
+
+    color:black;
+}
